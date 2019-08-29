@@ -1,0 +1,286 @@
+ body
+{
+    background-image: url(Camp.jpg);
+    background-position-x: 70%;
+    background-position-y: -15%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:aliceblue;
+    background-attachment: fixed;
+} 
+.container
+{
+    width: 1000px;
+    margin: auto;    
+   
+}
+
+
+.welcome
+{
+  text-align: center;
+  color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px ; 
+  font-weight: 600;
+  position: center ;
+  background-color:rgba(0, 0, 0, 0.459);
+  position: fixed;
+  min-width: 100%;   
+}
+
+.welcome span 
+{color: red;}
+   
+
+.header .navbar 
+{
+  background: rgb(18, 12, 73);
+  color: aliceblue;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-height: 60px;
+  padding-top: 20px;
+  
+}
+
+.header h2{float: left;text-transform: uppercase;}
+.header h2 span{color: red;font-family: Arial, Helvetica, sans-serif;}
+
+
+.header .navbar ul
+{ 
+  list-style: none;
+  padding-left:0px ;
+  overflow: hidden;
+  float: right;
+  text-transform: capitalize;
+  font-weight: 500;  
+  cursor: pointer;
+}
+
+
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px 15px 0px 15px ;
+}
+
+
+.main
+{  
+  text-transform: capitalize;
+  height:90% ;
+  margin: 0px 220px;
+  background-color: rgba(56, 56, 56, 0.603);
+}
+
+
+.main ul
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 0px 10px 5px 0px;
+}
+
+
+.main p
+{  
+   font-size: 20px;
+  font-weight: 650;
+  margin: 0px ;
+  padding: 0px;
+} 
+
+.main  .list p:hover{color:  rgb(219, 21, 21);}
+.main .list h2:hover{color: rgb(219, 21, 21);}
+.list ul li:hover{ color:  rgb(219, 21, 21);} 
+.header .navbar ul li:hover{color: rgb(219, 21, 21);font-size: 20px;}
+
+
+.list
+{
+  float: left;
+  cursor: pointer;
+}
+
+.space
+{
+ 
+ float: left; 
+ max-width:120px ;
+ min-height: 400px
+}
+.space p 
+{
+  color: rgba(0, 0, 0, 0)
+}
+
+.main .a , .b , .cc , .d , .e , .f , .g , .h ,.i
+{
+  border: solid 0.5px;
+  border-radius: 12px;
+  border-color: rgba(240, 248, 255, 0.658);
+  text-align: center;
+ margin: 40px 70px 40px 40px ;
+ width: 200px;
+ float: left;
+ max-width: 200px;
+ max-height: 450px;
+ min-width: 200px;
+ position: relative;
+ background-color: rgba(0, 0, 0, 0.24);
+ cursor: pointer;
+}
+
+.main .a:hover ,.b:hover ,.cc:hover , .d:hover , .e:hover , .f:hover , .g:hover , .h:hover , .i:hover
+{
+  transform: scale(1.05,1.05);
+
+}
+
+
+.main .a p , .b p , .cc p , .d p , .e p , .f p, .g p , .h p, .i p
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  padding-top: 10px;}
+.main .b
+{
+  padding-bottom: 1.5px;
+}
+
+
+.price
+{
+  font-family: bold;
+  font-weight: 800;
+  position: absolute;
+  top:5px;
+  right: 8px; 
+  color: rgba(255, 0, 0, 0.877);
+}
+
+strike{color:red;font-size: 16px}
+
+button
+{
+  background-color: rgba(25, 0, 255, 0.822);
+  color: aliceblue;
+  font-weight: 500;
+  border:2px;
+  border-radius: 8px;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+button:hover
+{
+  transform: scale(1.05,1.05);
+  color: red;
+}
+
+
+
+.sort
+{
+  font-weight: 600;
+  font-size: 18px;
+  float: left;
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sort select
+{
+  font-size: 15px
+}
+
+
+.pages
+{
+  display: inline;
+  margin-left: 320px
+}
+.pages button
+{
+  border:1px;
+  border-radius: 50%;
+  font-size: 18px;
+  min-width: 40px;
+  background-color: rgb(36, 46, 46);  
+
+}
+
+
+.pages{text-align: center;}
+.pages button:hover{color: crimson;  transform: scale(1.1,1.1);}
+
+
+.contact
+{
+  margin-top: 30px;
+  background-color: rgba(22, 13, 141, 0.904);
+  min-height: 130px;
+  min-width: 600px; ;
+  border: solid rgba(30, 4, 78, 0.856) 2px; 
+  border-bottom: 0px;
+}
+
+
+.contact span 
+{
+  color: red;
+}
+.contact p
+{
+  font-size: 15px;
+  color:aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 200px;
+  float: left;
+}
+
+
+.contact .right h3
+{
+  float: right;
+  margin-top: 0px ;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.contact .right .rr
+{
+  float: right;
+  margin-right: -110px;
+  margin-top: 10px;
+}
+
+
+.contact .cen
+{
+  margin: auto
+}
+
+
+.contact .cen span
+{
+  margin-left: 207px; 
+ font-size: 15px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: aliceblue;
+}
+
+
+.contact .methods
+{
+  text-align: center;
+}
+
+
+.footer
+{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(238, 238, 238);
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.footer span{color: red;}
